@@ -2,7 +2,8 @@
  and other users will vote on them and leave comments to give their feedback on them.
 ## By
 Chris Ian Bartoo
-## Description1:Open your default web browser whichever it may be.
+## Description:
+1:Open your default web browser whichever it may be.
 2:Search For chrikin1 on github and click on the repo project-pitch. 
 3:No downloads are required to view this python application
 4:Clone the repo and run it in  the run.py file in your terminal
