@@ -3,25 +3,21 @@
 ## Project-pitch
 
 project-pitch is an application that allows users to use that one minute wisely. The users will submit their one minute pitch
+the link to the website is [here](https://pitcher-app.herokuapp.com)
 
+## Available
 
-  - the link to the website is [here](https://pitcher-app.herokuapp.com)
-
-# Features!
-
-  - Adding a place/point where ussers can pitch their ideas
-  - Add a Comment on other peoples pitches and give views on what can be done or made better
-  - Login 
+Adding a place/point where ussers can pitch their ideas
+Add a Comment on other peoples pitches and give views on what can be done or made better
 
 in addition:
-:  -Give your pitch
-  - Like and dislike
+Give your pitch
+Like and dislike
 
-### Tech involved
+## Tech involved
 
 Python uses a number of open source projects for it to actually work.
-
-*  [HTML]
-* [CSS]
-* [Python]
-* [flask]
+[HTML]
+[CSS]
+[Python]
+[flask]
