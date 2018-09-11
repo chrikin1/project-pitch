@@ -2,7 +2,7 @@ from flask import FlaskForm
 from forms import StringField, PasswordField, SubmitField, BooleanField, TextAreaField
 from forms.validators import Required, Email, EqualTo
 from ..models import User
-from wtforms import ValidationError
+from forms import ValidationError
 
 
 class UpdateProfile(FlaskForm):
