@@ -1,7 +1,5 @@
-from . import db 
+# from . import db 
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import UserMixin
-from . import login_manager
 from datetime import datetime
 
 @login_manager.user_loader
@@ -35,7 +33,7 @@ class User(UserMixin, db.Model):
         return check_password_hash(self.pass_secure, password)
 
     def __repr__(self):
-        return f'User {self.username}'
+        return 'User {self.username}'
 
 
 class PitchCategory(db.Model):

@@ -13,6 +13,14 @@ class Config:
 	SENDER_EMAIL = 'chrisbartoo@gmail.com'
 
 
-
 class ProdConfig(Config):
 	SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+
+class DevConfig(Config):
+	DEBUG = True
+	# class ProdConfig(Config):SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+
+config_options = {
+	'development': DevConfig,
+	'production':ProdConfig
+}	
